@@ -20,6 +20,7 @@
   "homepage": "https://github.com/cunnellp5/Chocolate-Store-Inventory#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
     "dotenv": "^2.0.0",
     "express": "^4.14.0",
     "knex": "^0.12.6",
