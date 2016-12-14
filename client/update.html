@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Chocolates</title>
+  </head>
+  <body class = "container">
+    <header>
+      <h1>Chocolates!</h1>
+    </header>
+    <table class="table table-striped">
+
+      <thead>
+      </thead>
+      <tbody>
+        <tr>
+          <th>#</th>
+          <th>name</th>
+          <th>type</th>
+          <th>tell me about that taste!</th>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <tbody>
+      <tr>
+        <form class="" action="/chocolate" method="post">
+            Name:
+            <br>
+            <input class="formula" id = "name" type="text" name="name" value="" placeholder="Truffle">
+            <br><br>
+            Price per lb:
+            <br>
+            <input class="formula" id = "price" type="text" name="price_lb" value="" placeholder="1099 in cents">
+            <br><br>
+            Type:
+            <br>
+            <input class="formula" id = "type" type="text" name="type" value="" placeholder="Milk or Dark?">
+            <br><br>
+            Deliciousness:
+            <br>
+            <input class="formula" id = "deliciousness" type="text" name="delicious_factor" value="" placeholder="Sooo Good!">
+            <br><br>
+        </form>
+      </tr>
+    </tbody>
+  </table>
+
+    <a href="displayall.html"><button id="success" class="btn btn-success" type="submit" name="button">UpDate this list!</button></a>
+    <br><br>
+    <footer>I'll take you to my candy shopp🍫🍬</footer>
+
+        <script src="app.js"></script>
+  </body>
+</html>

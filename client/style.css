@@ -1,0 +1,31 @@
+#home {
+  margin: 0 auto;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#intro{
+  font-size: 5em;
+  border: none;
+  transition: all 0.1s;
+  box-shadow: 0 15px 10px #666;
+}
+#intro:hover  {
+  background-color: pink;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 15px 10px #666;
+}
+/*.btn:hover {background-color: #3e8e41}*/
+#intro:active:focus {
+  background-color: green;
+  outline: none;
+  border: none;
+  box-shadow: 0 15px 10px #666;
+  transform: translateY(4px);
+}
+.formula{
+  color: green;
+}

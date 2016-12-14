@@ -12,7 +12,6 @@
       <h1>Chocolates!</h1>
     </header>
     <table class="table table-striped">
-
       <thead>
         <tr>
           <th>#</th>
@@ -28,10 +27,35 @@
           <th class="price"></th>
           <th class="delicious"></th>
         </tr>
-      </tbody>
+      </tbody
     </table>
 
-    <a href="update.html"><button class="btn btn-success" type="submit" name="button">UpDate this list!</button></a>
+
+    <tbody>
+      <tr>
+        <form class="" action="/chocolate" method="post">
+            Name:
+            <br>
+            <input class="formula" id = "name" type="text" name="name" value="" placeholder="Truffle">
+            <br><br>
+            Price per lb:
+            <br>
+            <input class="formula" id = "price" type="text" name="price_lb" value="" placeholder="1099 in cents">
+            <br><br>
+            Type:
+            <br>
+            <input class="formula" id = "type" type="text" name="type" value="" placeholder="Milk or Dark?">
+            <br><br>
+            Deliciousness:
+            <br>
+            <input class="formula" id = "deliciousness" type="text" name="delicious_factor" value="" placeholder="Sooo Good!">
+            <br><br>
+        </form>
+      </tr>
+    </tbody>
+  </table>
+
+    <a href="displayall.html"><button id="success" class="btn btn-success" type="submit" name="button">UpDate this item!</button></a>
     <br><br>
     <footer>I'll take you to my candy shopp🍫🍬</footer>
 
