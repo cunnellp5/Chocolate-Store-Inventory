@@ -78,7 +78,9 @@ newObj.delicious_factor = $('#deliciousness').val();
     data: newObj,
     success: function(message){
       if (message.message === 'nooo') {
-        window.location.replace("400.html");
+        $('#error').html(`<p>^^^^^🙀 You messed up, fill the forms better! 👿</p>`);
+        // window.location = `/client/show/?id=${id}`
+
       } else {
       window.location = `/client/show/?id=${id}`
       }

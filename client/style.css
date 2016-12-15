@@ -1,3 +1,7 @@
+#error{
+  font-size: 50px;
+  color: red;
+}
 #home {
   margin: 0 auto;
   vertical-align: middle;
@@ -9,11 +13,11 @@
 #intro{
   font-size: 5em;
   border: none;
-  transition: all 0.1s;
+  transition: all 2.1s;
   box-shadow: 0 15px 10px #666;
 }
 #intro:hover  {
-  background-color: pink;
+  background-color: black;
   border-radius: 50%;
   border: none;
   box-shadow: 0 15px 10px #666;
