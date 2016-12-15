@@ -9,56 +9,39 @@
   </head>
   <body class = "container">
     <header>
-      <h1>Chocolates!</h1>
+      <h1>Edit sukka!</h1>
     </header>
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Name</th>
-          <th>Price</th>
-          <!-- <th>Description</th> -->
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th class="row"></th>
-          <th class="name"></th>
-          <th class="price"></th>
-          <th class="delicious"></th>
-        </tr>
-      </tbody
-    </table>
 
+      <a href="../displayall.html">
+        <button class = "btn btn-success">
+          Go Home!
+        </button>
+      </a>
 
-    <tbody>
-      <tr>
-        <form class="" action="/chocolate" method="post">
-            Name:
-            <br>
-            <input class="formula" id = "name" type="text" name="name" value="" placeholder="Truffle">
-            <br><br>
-            Price per lb:
-            <br>
-            <input class="formula" id = "price" type="text" name="price_lb" value="" placeholder="1099 in cents">
-            <br><br>
-            Type:
-            <br>
-            <input class="formula" id = "type" type="text" name="type" value="" placeholder="Milk or Dark?">
-            <br><br>
-            Deliciousness:
-            <br>
-            <input class="formula" id = "deliciousness" type="text" name="delicious_factor" value="" placeholder="Sooo Good!">
-            <br><br>
-        </form>
-      </tr>
-    </tbody>
-  </table>
+      <br>
+      <br>
+      Name:
+      <br>
+      <input class="formula" id = "name" type="success" name="name" value="" placeholder="Truffle" required>
+      <br><br>
+      Price per lb:
+      <br>
+      <input class="formula" id = "price" type="success" name="price_lb" value="" placeholder="1099 in cents" required>
+      <br><br>
+      Type:
+      <br>
+      <input class="formula" id = "type" type="success" name="type" value="" placeholder="Milk or Dark?" required>
+      <br><br>
+      Deliciousness:
+      <br>
+      <input class="formula" id = "deliciousness" type="success" name="delicious_factor" value="" placeholder="Sooo Good!" required>
+      <br><br>
+      <footer id = "foot-hair">
+      </footer>
 
-    <a href="displayall.html"><button id="success" class="btn btn-success" type="submit" name="button">UpDate this item!</button></a>
-    <br><br>
-    <footer>I'll take you to my candy shopp🍫🍬</footer>
-
-        <script src="app.js"></script>
+      <button id = "put" class="btn btn-info" type="success" name="put">
+        Change!
+      </button>
+    <script src="app.js"></script>
   </body>
 </html>

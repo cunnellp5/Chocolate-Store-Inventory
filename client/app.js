@@ -10,7 +10,7 @@ function display(data){
 
     var price = data[i].price_lb;
     let fixed = price/100;
-    $('.row').append(`${data[i].id} <br>`);
+    $('.row').append(`<a href="show?id=${data[i].id}">${data[i].id}</a><br>`);
     $('.name').append(`<a href="show?id=${data[i].id}">${data[i].name}</a><br>`);
     $('.price').append(`$${fixed}<br>`);
     // $('.delicious').append(`${data[i].delicious_factor} <br>`);
